@@ -23,7 +23,7 @@ from mycroft.util import play_wav
 from mycroft.util.parse import extract_number
 
 
-ALSA_PLATFORMS = ['mycroft_mark_1', 'picroft', 'unknown']
+ALSA_PLATFORMS = ['mycroft_mark_1', 'picroft', 'unknown', 'OpenVoiceOS']
 
 
 class VolumeSkill(MycroftSkill):
