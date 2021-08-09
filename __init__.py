@@ -369,7 +369,7 @@ class VolumeSkill(MycroftSkill):
 
     def __get_volume_level(self, message, default=None):
         """ Retrievs volume from message. """
-        level_str = message.data.get('Level', default)
+        level_str = str(message.data.get('Level', default))
         level = self.settings["default_level"]
 
         try:
