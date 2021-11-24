@@ -1,5 +1,6 @@
 settings.json
-
+*.lock
+.idea/
 # python compiled files
 *.pyc
 
