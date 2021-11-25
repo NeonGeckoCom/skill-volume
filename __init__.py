@@ -1,9 +1,9 @@
-# NEON AI (TM) SOFTWARE, Software Development Kit & Application Development System
+# NEON AI (TM) SOFTWARE, Software Development Kit & Application Framework
 # All trademark and other rights reserved by their respective owners
 # Copyright 2008-2022 Neongecko.com Inc.
-# Authors: Daniel McKnight, Guy Daniels, Elon Gasper, Richard Leeds,
+# Contributors: Daniel McKnight, Guy Daniels, Elon Gasper, Richard Leeds,
 # Regina Bloomstine, Casimiro Ferreira, Andrii Pernatii, Kirill Hrymailo
-# BSD-3
+# BSD-3 License
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
 # 1. Redistributions of source code must retain the above copyright notice,
@@ -39,11 +39,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
 import subprocess
 
-from os.path import isfile, join
+from os.path import isfile, join, dirname
 from adapt.intent import IntentBuilder
 from mycroft_bus_client import Message
 from neon_utils.message_utils import request_from_mobile
@@ -61,9 +60,9 @@ class VolumeSkill(NeonSkill):
 
     # TODO: Translation layer (have to match word in Level.voc)
     VOLUME_WORDS = {
-        'loud': 9,
-        'normal': 6,
-        'quiet': 3
+        'loud': 90,
+        'normal': 60,
+        'quiet': 30
     }
 
     def __init__(self):
