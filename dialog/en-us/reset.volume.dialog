@@ -1,2 +1,1 @@
-Volume reset to {{volume}}
-Volume restored to {{volume}}
+{{kind}} restored to {{volume}} percent.
