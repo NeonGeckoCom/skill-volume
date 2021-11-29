@@ -40,4 +40,6 @@ Make sure the correct default audio devices are selected (see `3. Setting Up Har
 Use the [link](https://neongecko.com/ContactUs) or [submit an issue on GitHub](https://help.github.com/en/articles/creating-an-issue)
 
 ## Credits
-reginaneon [neongeckocom](https://neongecko.com/) djmcknight358 Mycroft AI
+[Mycroft AI](https://github.com/MycroftAI)
+[NeonDaniel](https://github.com/NeonDaniel)
+[reginaneon](https://github.com/reginaneon)
