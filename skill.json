@@ -32,19 +32,20 @@
     "branch": "master",
     "license": "BSD-3-Clause",
     "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-    "category": "",
+    "category": "Configuration",
     "categories": [
-        ""
+        "Configuration"
     ],
     "tags": [
-        ""
+        "volume",
+        "volume-control",
+        "sound",
+        "system"
     ],
     "credits": [
-        "reginaneon",
-        "[neongeckocom](https://neongecko.com/)",
-        "djmcknight358",
-        "Mycroft",
-        "AI"
+        "Mycroft AI",
+        "NeonDaniel",
+        "reginaneon"
     ],
     "skillname": "Volume",
     "authorname": "NeonGeckoCom",

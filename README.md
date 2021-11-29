@@ -39,7 +39,16 @@ Make sure the correct default audio devices are selected (see `3. Setting Up Har
 ## Contact Support
 Use the [link](https://neongecko.com/ContactUs) or [submit an issue on GitHub](https://help.github.com/en/articles/creating-an-issue)
 
+## Category
+**Configuration**
+
 ## Credits
 [Mycroft AI](https://github.com/MycroftAI)
 [NeonDaniel](https://github.com/NeonDaniel)
 [reginaneon](https://github.com/reginaneon)
+
+## Tags
+#volume
+#volume-control
+#sound
+#system
