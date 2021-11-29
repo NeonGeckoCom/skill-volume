@@ -1,2 +1,2 @@
-The volume is set to {{volume}}
-The volume is at {{volume}}
+The {{kind}} is set to {{volume}} percent.
+The {{kind}} is at {{volume}} percent.
