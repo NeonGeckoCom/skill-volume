@@ -48,6 +48,5 @@
     ],
     "skillname": "Volume",
     "authorname": "NeonGeckoCom",
-    "foldername": null,
-    "troubleshooting": "Make sure the correct default audio devices are selected (see `3. Setting Up Hardware` in the instructions)."
+    "foldername": null
 }
